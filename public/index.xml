@@ -6,10 +6,29 @@
     <description>Recent content on Jiayiliu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>codes for microbiota analysis in R</title>
+      <link>/post/codes-for-microbiota-analysis-in-r/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/codes-for-microbiota-analysis-in-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>临江仙·梦后楼台高锁</title>
+      <link>/post/yanjidao/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/yanjidao/</guid>
+      <description>【宋】晏几道
+梦后楼台高锁，酒醒帘幕低垂。去年春恨却来时，落花人独立，微雨燕双飞。 记得小蘋初见，两重心字罗衣。琵琶弦上说相思，当时明月在，曾照彩云归。</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
