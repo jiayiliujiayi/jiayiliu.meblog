@@ -35,7 +35,7 @@ library(tidyverse)
 library(readxl)
 ```
   
-###1. Import files into R  
+1. Import files into R  
 * For excel file(s):  
   1. use command "read excel"  
   2. define the data type for each column using argument "col_types"  
