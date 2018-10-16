@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>codes for microbiota analysis in R</title>
-      <link>/post/codes-for-microbiota-analysis-in-r/</link>
+      <title>code for microbiota analysis in R</title>
+      <link>/post/code-for-microbiota-analysis-in-r/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/codes-for-microbiota-analysis-in-r/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
- </description>
+      <guid>/post/code-for-microbiota-analysis-in-r/</guid>
+      <description>Inspired by Riffomonas</description>
     </item>
     
     <item>
