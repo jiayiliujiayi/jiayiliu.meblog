@@ -18,3 +18,4 @@ tags:
 经验：  
 1. 不要忘记扩展名  
 2. 不要忘记description（可以从之前的博文拷贝？）
+3. 如果现在github website直接po文章，再从rstudio po一篇，记得使用rstudio之前需要从rstudio pull一下，使用最新的信息，这样才能把第二篇顺利push去github
