@@ -17,7 +17,8 @@
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/code-for-microbiota-analysis-in-r/</guid>
-      <description>Inspired by Riffomonas</description>
+      <description>Inspired by Riffomonas
+0. Before you start 0.1 Set working directory   </description>
     </item>
     
     <item>
