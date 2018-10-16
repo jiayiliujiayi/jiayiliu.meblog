@@ -41,10 +41,3 @@ library(readxl)
   1. use command "read excel"  
   2. define the data type for each column using argument "col_types"  
 eg: 
-```{r xlsx, message=FALSE, warning=FALSE, , echo=TRUE, paged.print=FALSE}
-metadata <- read_excel("ex3 design.xlsx", 
-                       col_types = c("text", "text", "text", 
-                                     "text", "skip", "skip", "skip", 
-                                     "skip"))
-```
-  
