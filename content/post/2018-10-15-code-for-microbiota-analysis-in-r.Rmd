@@ -17,3 +17,7 @@ Inspired by [Riffomonas](http://www.riffomonas.org)
 
 ### 0. Before you start  
 #### 0.1 Set working directory  
+```{r}
+setwd(dir = "~/Documents/mothur exercise/rmarkdown/")
+```
+

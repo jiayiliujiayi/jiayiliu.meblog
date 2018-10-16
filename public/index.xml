@@ -6,10 +6,26 @@
     <description>Recent content on Jiayiliu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>本文在GitHub网页版生成并提交</title>
+      <link>/post/test/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>尝试直接从github提交.md文件
+似乎比rstudio方便一些，页面空间也更加大！
+如果能够成功，就好好学一下markdown syntax哈哈哈……
+经验：
+1. 不要忘记扩展名
+2. 不要忘记description（可以从之前的博文拷贝？） 3. 如果现在github website直接po文章，再从rstudio po一篇，记得使用rstudio之前需要从rstudio pull一下，使用最新的信息，这样才能把第二篇顺利push去github &amp;ndash;&amp;gt; 从source A改动后，先push到master branch，再pull到source B，再在source B改动&amp;ndash;&amp;gt; 保证版本的一致性～
+反之：source a改动，push，source b改动，push，第二次push就会被reject
+感到自己智商+语言能力堪忧 这么点简单的流程居然讲了这么多字😢</description>
+    </item>
     
     <item>
       <title>code for microbiota analysis in R</title>
@@ -18,7 +34,7 @@
       
       <guid>/post/code-for-microbiota-analysis-in-r/</guid>
       <description>Inspired by Riffomonas
-0. Before you start 0.1 Set working directory   </description>
+0. Before you start 0.1 Set working directory setwd(dir = &amp;quot;~/Documents/mothur exercise/rmarkdown/&amp;quot;)   ~ meaning: root 0.2 Two Sets of Files needed for analysis    File origin File type Notes    Mothur axes file ended with “.ave.pcoa.axes” tsv(Tab Separated Values)file  Mothur summary file ended with “ave-std.summary” convert format into xls, csv, or tsv before importing  Mothur summary file ended with “tax.</description>
     </item>
     
     <item>
@@ -72,10 +88,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>##关于本人
+      <description>关于本人
 趣味低级，言语无味。
-##About me
-vulgar &amp;amp; pedestrian</description>
+About me
+Vulgar &amp;amp; Pedestrian</description>
     </item>
     
   </channel>
