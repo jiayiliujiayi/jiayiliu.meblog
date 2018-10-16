@@ -15,5 +15,5 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 Inspired by [Riffomonas](http://www.riffomonas.org)
 
-###0. Before you start  
-####0.1 Set working directory  
+### 0. Before you start  
+#### 0.1 Set working directory  
