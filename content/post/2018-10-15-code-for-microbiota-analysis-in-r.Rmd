@@ -20,4 +20,24 @@ Inspired by [Riffomonas](http://www.riffomonas.org)
 ```{r}
 setwd(dir = "~/Documents/mothur exercise/rmarkdown/")
 ```
+# ~ meaning: root
 
+####0.2 Two Sets of Files needed for analysis  
+File origin|File type|Notes
+------------- | ------------- | ------------- 
+Mothur | axes file ended with ".ave.pcoa.axes"|tsv(Tab Separated Values)file  
+Mothur | summary file ended with "ave-std.summary"|convert format into xls, csv, or tsv before importing    
+Mothur |summary file ended with "tax.summary" | convert format into xls, csv, or tsv before importing  
+Metadata|file ended with ".xls", ".xlsx", ".csv", ".tsv", etc...|file(s) containing scription of subject, grouping, treatment, etc...  
+  
+####0.3 Load libraries needed
+```{r , echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyverse)
+library(readxl)
+```
+  
+###1. Import files into R  
+* For excel file(s):  
+  1. use command "read excel"  
+  2. define the data type for each column using argument "col_types"  
+eg: 
