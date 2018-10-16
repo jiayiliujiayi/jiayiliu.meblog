@@ -1,0 +1,14 @@
+---
+title: code for microbiota analysis in R
+author: Jiayi
+date: '2018-10-15'
+slug: code-for-microbiota-analysis-in-r
+categories:["R"]
+tags:["R Markdown", "microbiota"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+Inspired by Riffomonas
