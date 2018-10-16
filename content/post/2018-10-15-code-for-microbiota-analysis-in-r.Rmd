@@ -20,7 +20,7 @@ Inspired by [Riffomonas](http://www.riffomonas.org)
 ```{r}
 setwd(dir = "~/Documents/mothur exercise/rmarkdown/")
 ```
-# ~ meaning: root
+~ meaning: root
 
 ####0.2 Two Sets of Files needed for analysis  
 File origin|File type|Notes
