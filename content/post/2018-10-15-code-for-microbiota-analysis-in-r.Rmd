@@ -35,9 +35,3 @@ Metadata|file ended with ".xls", ".xlsx", ".csv", ".tsv", etc...|file(s) contain
 library(tidyverse)
 library(readxl)
 ```
-  
-###1. Import files into R  
-* For excel file(s):  
-  1. use command "read excel"  
-  2. define the data type for each column using argument "col_types"  
-eg: 
