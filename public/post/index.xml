@@ -38,11 +38,11 @@
     </item>
     
     <item>
-      <title>code for microbiota analysis in R</title>
-      <link>/post/code-for-microbiota-analysis-in-r/</link>
+      <title>Command lines for microbiota analysis in R</title>
+      <link>/post/command-lines-for-microbiota-analysis-in-r/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/code-for-microbiota-analysis-in-r/</guid>
+      <guid>/post/command-lines-for-microbiota-analysis-in-r/</guid>
       <description>Inspired by Riffomonas
 0. Before you start 0.1 Set working directory setwd(dir = &amp;quot;~/Documents/mothur exercise/rmarkdown/&amp;quot;) ~ meaning: root
  0.2 Two Sets of Files needed for analysis    File origin File type Notes    Mothur axes file ended with “.ave.pcoa.axes” tsv(Tab Separated Values)file  Mothur summary file ended with “ave-std.summary” convert format into xls, csv, or tsv before importing  Mothur summary file ended with “tax.summary” convert format into xls, csv, or tsv before importing  Metadata file ended with “.</description>
