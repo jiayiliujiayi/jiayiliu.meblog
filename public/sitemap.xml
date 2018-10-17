@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/vulgar-and-repulsive/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/test/</loc>
     <lastmod>2018-10-16T00:00:00+00:00</lastmod>
   </url>
@@ -42,18 +47,18 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/life/</loc>
-    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/life/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/life/</loc>
     <lastmod>2018-10-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -78,7 +83,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,6 +100,12 @@
   </url>
   
   <url>
+    <loc>/tags/reflection/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
@@ -107,13 +118,13 @@
   </url>
   
   <url>
-    <loc>/tags/test/</loc>
+    <loc>/categories/test/</loc>
     <lastmod>2018-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/test/</loc>
+    <loc>/tags/test/</loc>
     <lastmod>2018-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
