@@ -1,9 +1,8 @@
 ---
-title: batch file for processing raw data generated from MiSeq Illumina sequencing
-  platform, using mother
+title: batch file for processing sequencing data generated from Illumina Miseq, using mothur
 author: Jiayi
 date: '2018-10-18'
-slug: batch-file-for-processing-raw-data-generated-from-miseq-illumina-sequencing-platform-using-mother
+slug: batch-file-miseq-mothur
 categories:
   - code
 tags:
