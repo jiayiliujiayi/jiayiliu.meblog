@@ -15,7 +15,7 @@ This batch file is created based on mothur miseq SOP. please try using interacti
 
 Please check numeric parameters within batch file before running it. 
 
-##start from here
+## start from here  
 #change the name of the file from stability.files to whatever suits your study
 make.contigs(file=stability.files, processors=4)
 summary.seqs(fasta=stability.trim.contigs.fasta)
