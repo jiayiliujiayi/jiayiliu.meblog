@@ -1,4 +1,9 @@
-theme = "basics"
+theme = "Basics"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "JY L"
+
+[params]
+    author = "Jiayi Liu"
+    github = "username1"
+    gitlab = "username2"
