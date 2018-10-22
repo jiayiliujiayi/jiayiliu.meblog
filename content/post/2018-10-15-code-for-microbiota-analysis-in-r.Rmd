@@ -50,3 +50,4 @@ metadata <- read_excel("ex3 design.xlsx",
 
 to be continued...
 
+###2. Trim and clean data
