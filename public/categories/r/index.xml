@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on Jiayiliu</title>
+    <title>R on JY L</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on Jiayiliu</description>
+    <description>Recent content in R on JY L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Oct 2018 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Command lines for microbiota analysis in R</title>
+      <title>Commands for microbiota analysis in R</title>
       <link>/post/command-lines-for-microbiota-analysis-in-r/</link>
       <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
       

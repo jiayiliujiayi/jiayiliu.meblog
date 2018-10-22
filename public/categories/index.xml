@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Jiayiliu</title>
+    <title>Categories on JY L</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Jiayiliu</description>
+    <description>Recent content in Categories on JY L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -11,9 +11,18 @@
     
     
     <item>
+      <title>Code</title>
+      <link>/categories/code/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Life</title>
       <link>/categories/life/</link>
-      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/life/</guid>
       <description></description>
