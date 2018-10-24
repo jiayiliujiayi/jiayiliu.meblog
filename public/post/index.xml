@@ -18,9 +18,9 @@
       
       <guid>/post/slightest-error/</guid>
       <description>前天想在主题栏多加两个个选项（eg. blog，about，weibo），就更改了config文件，也没太在意细节，直接按照github的简介来着；而后又加了一篇博文。commit和push都没问题。最终，无论如何也无法deploy。推测了几个可能：检查了variable里的hugo version，重新开始一个deployment，删除了可疑的最新博文，但还是部署失败。
-问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论是master branch有问题。
+问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论：master branch很大可能有问题。
 再在commit里逐一查找差别。最终找到一个最最可疑的内容：
-修改回“basics”已后deploy成功。
+修改回“basics”后，deploy成功。
 总结
 1. 不要随便改config文件
 2. 在大小写敏感环境里不要随便改大小写
@@ -29,7 +29,8 @@
 近期在coding方面想学的东西：
 0. rmd的静态文件怎么call
 1. 修改主题的格式
-2. 定义网页动态标题（不知道是不是这么说），参见柳志超的blog，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！</description>
+2. 定义网页动态标题（不知道是不是这么说），参见柳志超的blog，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！
+3. 改字体</description>
     </item>
     
     <item>
@@ -80,7 +81,10 @@ summary.seqs(fasta=stability.trim.contigs.good.fasta) unique.seqs(fasta=stabilit
 1. 不要忘记扩展名
 2. 不要忘记description（可以从之前的博文拷贝？） 3. 如果现在github website直接po文章，再从rstudio po一篇，记得使用rstudio之前需要从rstudio pull一下，使用最新的信息，这样才能把第二篇顺利push去github &amp;ndash;&amp;gt; 从source A改动后，先push到master branch，再pull到source B，再在source B改动&amp;ndash;&amp;gt; 保证版本的一致性～
 反之：source a改动，push，source b改动，push，第二次push就会被reject
-感到自己智商+语言能力堪忧 这么点简单的流程居然讲了这么多字😢</description>
+感到自己智商+语言能力堪忧 这么点简单的流程居然讲了这么多字😢
+###10月24日再次记录，今天写的一篇再次跌入了这个坑，从rstudio提交初始版本，而后想修改又在码别的project所以就直接在github上改了，到了rstudio发现和master branch不一致……不过这次还好，反应过来要先pull一下：）
+但versioncontro也挺不错，之前看微信推送有人用git写论文，这样每次都能看到自己改动了哪里和哪些。
+所以正在考虑用github写我的下一篇。。。（如果还有的写 sigh</description>
     </item>
     
     <item>
