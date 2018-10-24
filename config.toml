@@ -1,4 +1,4 @@
-theme = "Basics"
+theme = "basics"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "JY L"
