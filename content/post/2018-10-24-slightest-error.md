@@ -1,5 +1,5 @@
 ---
-title: 差之毫厘谬之千里
+title: 大小写敏感的问题：差之毫厘谬之千里
 author: Jiayi
 date: '2018-10-24'
 slug: slightest-error
@@ -16,4 +16,8 @@ tags:
 再在一个个commit查找，到底是哪里有问题。最终找到一个最最可疑的内容：
 
 总结
+1. 不要随便改config文件
+2. 在大小写敏感环境里不要随便改大小写
+3. 把大问题分成小问题，按照时间顺序来
+4. commit note写得要详细一些，这样troubleshooting的方向更明确 & 效率更高
 
