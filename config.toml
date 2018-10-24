@@ -2,3 +2,7 @@ theme = "basics"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "JY L"
+
+[params]
+    author = "Jiayi"
+    github = "jiayiliujiayi"
