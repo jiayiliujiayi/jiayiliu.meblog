@@ -13,7 +13,7 @@ tags:
 
 问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论：master branch很大可能有问题。
 
-再在commit里逐一查找差别。最终找到一个最最可疑的内容：
+再从屡次commit里逐一查找差别。最终找到一个最最可疑的内容：
 
 修改回“basics”后，deploy成功。
 
