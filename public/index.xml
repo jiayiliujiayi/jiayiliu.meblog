@@ -6,10 +6,24 @@
     <description>Recent content on JY L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>大小写敏感的问题：差之毫厘谬之千里</title>
+      <link>/post/slightest-error/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/slightest-error/</guid>
+      <description>前天想在主题栏多加两个个选项（eg. blog，about，weibo），就更改了config文件，也没太在意细节，直接按照github的简介来着；而后又加了一篇博文。commit和push都没问题。最终，无论如何也无法deploy。推测了几个可能：检查了variable里的hugo version，重新开始一个deployment，删除了可疑的最新博文，但还是部署失败。
+问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论是master branch有问题。
+再在一个个commit查找，到底是哪里有问题。最终找到一个最最可疑的内容：
+修改回“basics”已后deploy成功。
+总结 1. 不要随便改config文件 2. 在大小写敏感环境里不要随便改大小写 3. 把大问题分成小问题，按照时间顺序来 4. commit note写得要详细一些，这样troubleshooting的方向更明确 &amp;amp; 效率更高
+近期在coding方面想学的东西： 0. rmd的静态文件怎么call 1. 修改主题的格式 2. 定义网页动态标题（不知道是不是这么说），参见柳志超的blog，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！</description>
+    </item>
     
     <item>
       <title>躬行与混沌</title>
@@ -128,6 +142,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 一个沉迷低级趣味的半文盲。
 About me
 Vulgar &amp;amp; Pedestrian</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2018-10-24-slightest-error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-10-24-slightest-error/</guid>
+      <description>差之毫厘谬之千里       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>

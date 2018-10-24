@@ -15,9 +15,17 @@ tags:
 
 再在一个个commit查找，到底是哪里有问题。最终找到一个最最可疑的内容：
 
+修改回“basics”已后deploy成功。
+
 总结
 1. 不要随便改config文件
 2. 在大小写敏感环境里不要随便改大小写
 3. 把大问题分成小问题，按照时间顺序来
 4. commit note写得要详细一些，这样troubleshooting的方向更明确 & 效率更高
+
+近期在coding方面想学的东西：
+0. rmd的静态文件怎么call
+1. 修改主题的格式
+2. 定义网页动态标题（不知道是不是这么说），参见[柳志超的blog](https://liuzhichao.com/2018/hello_hugo/)，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！
+
 
