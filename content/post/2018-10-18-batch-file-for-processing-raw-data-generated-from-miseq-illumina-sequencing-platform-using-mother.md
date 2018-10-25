@@ -1,5 +1,5 @@
 ---
-title: batch file for processing sequencing data generated from Illumina Miseq, using mothur
+title: Using mothur: batch file for processing sequencing data generated from Illumina Miseq, using mothur
 author: Jiayi
 date: '2018-10-18'
 slug: batch-file-miseq-mothur
