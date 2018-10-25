@@ -1,5 +1,5 @@
 ---
-title: 大小写敏感的问题：差之毫厘谬之千里
+title: 不仅是大小写敏感的问题：差之毫厘谬之千里
 author: Jiayi
 date: '2018-10-24'
 slug: slightest-error
@@ -29,7 +29,9 @@ tags:
 2. 定义网页动态标题（不知道是不是这么说），参见[柳志超的blog](https://liuzhichao.com/2018/hello_hugo/)，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！  
 3. 改字体
 
-10.24:再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- -
-尝试改中文的title就没有关系 但是改英文title就会出现无法部署的情况。。。
-
+---------------------------------10月25日update-----------------------
+今日再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- -  
+--> 尝试改中文的title就没有关系 但是改英文title就会出现无法部署的情况。。。  
+--> 改了某个英文标题，以及改了public下面的index.html和index.xml文件，deploy失败。。  
+to be continued
 
