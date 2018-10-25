@@ -9,13 +9,13 @@ tags:
   - reflection
 ---
 
-前天想在主题栏多加两个个选项（eg. blog，about，weibo），就更改了config文件，也没太在意细节，直接按照github的简介来着；而后又加了一篇博文。commit和push都没问题。最终，无论如何也无法deploy。推测了几个可能：检查了variable里的hugo version，重新开始一个deployment，删除了可疑的最新博文，但还是部署失败。
+前天想在主题栏多加两个个选项（eg. blog，about，weibo），就更改了config文件，也没太在意细节，直接按照github的简介来着；而后又加了一篇博文。commit和push都没问题。最终，无论如何也无法deploy。推测了几个可能：检查了variable里的hugo version，重新开始一个deployment，删除了可疑的最新博文，但还是部署失败。  
 
-问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论：master branch很大可能有问题。
+问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论：master branch很大可能有问题。  
 
-再从屡次commit里逐一查找差别。最终找到一个最最可疑的内容：
+再从屡次commit里逐一查找差别。最终找到一个最最可疑的内容： 
 
-修改回“basics”后，deploy成功。
+修改回“basics”后，deploy成功。  
 
 总结  
 1. 不要随便改config文件  
