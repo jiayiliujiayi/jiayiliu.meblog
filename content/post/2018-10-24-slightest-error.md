@@ -15,6 +15,7 @@ tags:
 
 再从屡次commit里逐一查找差别。最终找到一个最最可疑的内容： 
 ![“不作死就不会死（微笑的表情）”](/post/2018-10-24-slightest-error_files/Screen Shot 2018-10-25 at 12.05.29.png)
+<img src="/post/2018-10-24-slightest-error_files/Screen Shot 2018-10-25 at 12.05.29.png" alt="" width="60%"/>
 修改回“basics”后，deploy成功。  
 
 总结  
