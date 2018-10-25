@@ -44,7 +44,7 @@
     </item>
     
     <item>
-      <title>Using mothur: batch to process raw sequencing data (microbial genomics) from Miseq</title>
+      <title>batch file for processing sequencing data generated from Illumina Miseq, using mothur</title>
       <link>/post/batch-file-miseq-mothur/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
       
