@@ -1,5 +1,5 @@
 ---
-title: 大小写敏感的问题：差之毫厘谬之千test删除里
+title: 大小写敏感的问题：差之毫厘谬之千里
 author: Jiayi
 date: '2018-10-24'
 slug: slightest-error
