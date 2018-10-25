@@ -1,5 +1,5 @@
 ---
-title: 大小写敏感的问题：差之毫厘谬之千里
+title: 大小写敏感的问题：差之毫厘谬之千里 改一下试试
 author: Jiayi
 date: '2018-10-24'
 slug: slightest-error
@@ -30,5 +30,6 @@ tags:
 3. 改字体
 
 10.24:再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- -
+尝试改中文的title就没有关系 但是改英文title就会出现无法部署的情况。。。
 
 

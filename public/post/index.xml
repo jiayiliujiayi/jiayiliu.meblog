@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>大小写敏感的问题：差之毫厘谬之千里</title>
+      <title>大小写敏感的问题：差之毫厘谬之千里 改一下试试</title>
       <link>/post/slightest-error/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@
 1. 修改主题的格式
 2. 定义网页动态标题（不知道是不是这么说），参见柳志超的blog，浏览该网页时是正常标题，浏览其他网页时标题变为“I miss you ”太酷了！
 3. 改字体
-10.24:再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- -</description>
+10.24:再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- - 尝试改中文的title就没有关系 但是改英文title就会出现无法部署的情况。。。</description>
     </item>
     
     <item>
