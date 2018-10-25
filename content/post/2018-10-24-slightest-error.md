@@ -14,8 +14,8 @@ tags:
 问题一直持续到今天（昨天很鸵鸟，借着饱暖思淫欲的借口）。试着deploy了local branch，成功，再试master branch，失败。结论：master branch很大可能有问题。  
 
 再从屡次commit里逐一查找差别。最终找到一个最最可疑的内容： 
-![“不作死就不会死（微笑的表情）”](/post/2018-10-24-slightest-error_files/Screen Shot 2018-10-25 at 12.05.29.png)
-<img src="/post/2018-10-24-slightest-error_files/Screen Shot 2018-10-25 at 12.05.29.png" alt="" width="60%"/>
+<img src="/post/2018-10-24-slightest-error_files/Screen Shot 2018-10-25 at 12.05.29.png" alt="nozuonodie" width="80%"/>  
+
 修改回“basics”后，deploy成功。  
 
 总结  
