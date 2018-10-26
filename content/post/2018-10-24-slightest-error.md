@@ -34,5 +34,9 @@ tags:
 今日再次“作死”：把某一篇的title改了，导致无法deploy，具体原因还不知道，但似乎是和index有关- -  
 --> 尝试改中文的title就没有关系 但是改英文title就会出现无法部署的情况。。。  
 --> 改了某个英文标题，以及改了public下面的index.html和index.xml文件，deploy失败。。  
-to be continued
+to be continued  
 
+------------------------------接下来是五十步笑百步时间---------------------------------------  
+家父几年前的博文：    
+![](/post/2018-10-24-slightest-error_files/original_Q50f_2159000000f1118f.jpg)  
+如今我居然能看懂（其实是因为自己也遇到过一模一样的问题哈哈）
