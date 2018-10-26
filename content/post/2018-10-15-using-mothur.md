@@ -1,22 +1,23 @@
 ---
-title: batch file for processing sequencing data generated from Illumina Miseq, using mothur
-author: Jiayi
+title: 'Using mothur: batch commands for processing sequencing data from Miseq'
+author: ''
 date: '2018-10-18'
-slug: batch-file-miseq-mothur
+slug: using-mothur
 categories:
   - code
+  - R
 tags:
+  - R
   - microbiota
 ---
+### Inspired by & based on [Mothur Miseq SOP](https://www.mothur.org/wiki/MiSeq_SOP)
 
-Inspired by [Mothur Miseq SOP](https://www.mothur.org/wiki/MiSeq_SOP)
+1. Please try interactive mode before batch mode (to know what happens within each command)  
+2. Please check numeric parameters within batch file before running it. 
 
-This batch file is created based on mothur miseq SOP. please try using interactive mode before batch mode (at least to know what happens within each step).
+### start from here  
 
-Please check numeric parameters within batch file before running it. 
-
-## start from here  
-#change the name of the file from stability.files to whatever suits your study
+#### change the name of the file from stability.files to whatever suits your study
 make.contigs(file=stability.files, processors=4)
 summary.seqs(fasta=stability.trim.contigs.fasta)
 screen.seqs(fasta=stability.trim.contigs.fasta, group=stability.contigs.groups, summary=stability.trim.contigs.summary, maxambig=0, maxlength=275)
@@ -81,5 +82,6 @@ corr.axes(axes=stability.opti_mcc.thetayc.0.01.lt.ave.pcoa.axes, shared=stabilit
 get.communitytype(shared=stability.opti_mcc.0.01.subsample.shared)
 unifrac.unweighted(tree=current, count=current, distance=lt, processors=2, random=F, subsample=5000)
 unifrac.weighted(tree=stability.tre, count=stability.count_table, distance=lt, processors=2, random=F, subsample=5000)
+
 
 

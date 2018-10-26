@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>/post/using-mothur/</loc>
+    <lastmod>2018-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/batch-file-miseq-mothur/</loc>
     <lastmod>2018-10-18T00:00:00+00:00</lastmod>
   </url>
@@ -131,8 +136,14 @@
   </url>
   
   <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-10-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

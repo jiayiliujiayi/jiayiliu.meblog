@@ -25,8 +25,8 @@
 &amp;#8195;法国小品的优点，是表面上没有什么事情发生，其实是很重大的变化在发生。就像《红楼梦》， 吃螃蟹、喝酒、行酒令、对联、做生日，八十回的故事，以今日的标准，一点也不丰富，但掩卷追思，一个家族，原来在不动声色之间衰落崩溃了。孤女林黛玉，自 从进入贾府之后，她的生命从此改观了。
 &amp;#8195;真正的杰作，如山岳、如海洋，以短小的人生来观览，山还是山，海依旧是海，但以一百万年的时间比例尺，其实山在暗暗飘移，海在悄悄加深，地壳在千万年的荒老之间默默地变化，只是我们的肉眼太浅，从来不曾察觉。
 &amp;#8195;一出小品，不同亿万金元大制作，情节不需要枪战、追逐、凶杀来表现繁多乱眼的所谓“事件”。事件可以是很静态的，大千法相，就像山颜海貌，表面上纹丝不动，但其实早已韶华暗换，沧海桑田。
-&amp;#8195;当你老了，回顾一生，就会发觉：什么时候出国读书、什么时候决定做第一份职业、何时选定了对象而恋爱、什么时候结婚，其实都是命运的巨变。只是当时站在三岔路口，眼见风云千樯，你作出抉择的那一日，在日记上，相当的沉闷和平凡，当时还以为是生命中普通的一天。
-&amp;#8195;但一场巨变，已经发生了。地动山移，浑然不觉，当时只道是寻常。世上的生死荣哀，不就是在空寂之中缘起缘灭的吗？”</description>
+&amp;#8195; 当你老了，回顾一生，就会发觉：什么时候出国读书、什么时候决定做第一份职业、何时选定了对象而恋爱、什么时候结婚，其实都是命运的巨变。只是当时站在三岔路口，眼见风云千樯，你作出抉择的那一日，在日记上，相当的沉闷和平凡，当时还以为是生命中普通的一天。
+&amp;#8195;但一场巨变，已经发生了。地动山移，浑然不觉，当时只道是寻常。世上的生死荣哀，不就是在空寂之中缘起缘灭的吗？</description>
     </item>
     
     <item>
@@ -79,11 +79,11 @@ to be continued</description>
       <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/batch-file-miseq-mothur/</guid>
-      <description>Inspired by Mothur Miseq SOP
-This batch file is created based on mothur miseq SOP. please try using interactive mode before batch mode (at least to know what happens within each step).
-Please check numeric parameters within batch file before running it.
-start from here #change the name of the file from stability.files to whatever suits your study make.contigs(file=stability.files, processors=4) summary.seqs(fasta=stability.trim.contigs.fasta) screen.seqs(fasta=stability.trim.contigs.fasta, group=stability.contigs.groups, summary=stability.trim.contigs.summary, maxambig=0, maxlength=275)
-summary.seqs(fasta=stability.trim.contigs.good.fasta) unique.seqs(fasta=stability.trim.contigs.good.fasta) count.seqs(name=stability.trim.contigs.good.names, group=stability.</description>
+      <description>Inspired by &amp;amp; based on Mothur Miseq SOP  Please try interactive mode before batch mode (to know what happens within each command)
+ Please check numeric parameters within batch file before running it.  start from here change the name of the file from stability.files to whatever suits your study make.contigs(file=stability.files, processors=4) summary.seqs(fasta=stability.trim.contigs.fasta) screen.seqs(fasta=stability.trim.contigs.fasta, group=stability.contigs.groups, summary=stability.trim.contigs.summary, maxambig=0, maxlength=275)
+summary.seqs(fasta=stability.trim.contigs.good.fasta) unique.seqs(fasta=stability.trim.contigs.good.fasta) count.seqs(name=stability.trim.contigs.good.names, group=stability.contigs.good.groups)
+summary.seqs(count=stability.trim.contigs.good.count_table)
+###pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F, processors=8) rename.</description>
     </item>
     
     <item>
