@@ -3,4 +3,4 @@ __**关于本人**__
 心有困扰 但永不放弃
 
 __**About me**__  
-Vulgar & Pedestrian;Puzzled but persevering
+Vulgar & Pedestrian; Puzzled but persevering
