@@ -6,10 +6,56 @@
     <description>Recent content on JY L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用latex来生成毕业论文的一点点经验</title>
+      <link>/post/latex-graduation-thesis/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/latex-graduation-thesis/</guid>
+      <description>引言 其实呢，是拖延症导致本人时不时想玩耍偷懒好吃懒做好逸恶劳骄奢淫逸，可是纯玩吧又太内疚太空虚，于是想到用latex排版咯，感谢前辈们铺平的康庄大道！
+排版过程中遇到过各种各样的问题，很令人抓狂，但解决过程又让人欲罢不能！所以决定记下来解决方法，希望以后再翻看时有所收获，如果有益于后人那便更好。
+#latex用久了又快要忘了markdown了……木鱼脑子真是名副其实呀！
+一些个人习惯
+debug的时候，如果需要步骤 &amp;gt;= 3，那本木鱼脑子是肯定记不住回去的路的，所以会复制一个duplicate文件夹用来折腾。理想状态是有台备用电脑啦，可是本木鱼现在的水平还没资格。
+此方法得到了家父科班认证。一脸得意。
+系统信息
+0. 源代码：上海交通大学 XeLaTeX 学位论文及课程论文模板
+1. macos 10.14.2 (18C54)
+2. MacTeX-2018
+3 Atom editor 4. 编译用latexmk或xelatex
+5. 参考文件生成使用BibDesk
+如果有时间我想尝试sublime 嘻嘻
+终于到正文了
+常见问题可以搜索issues栏目
+ 自定义标题
+问题场景：原模版“主要符号对照表”，本医学狗需要改成“缩略语中英文对照”。
+解决方法：找到thesis.cls 修改相关内容
+ 文献引用
+在github的教程中是这样描述的：
+用户将论文中需要引用的参考文献条目，录入纯文本数据库文件 (bib 文 件)。 &amp;ndash;&amp;gt; 调用xelatex对论文模板做第一次编译，扫描文中引用的参考文献，生成参 考文献入口文件 (aux) 文件。&amp;ndash;&amp;gt; 调用 bibtex，以参考文献格式和入口文件为输入，生成格式化以后的参考 文献条目文件 (bib) &amp;ndash;&amp;gt;再次调用 xelatex 编译模板，将格式化以后的参考文献条目插入正文。
+我自己遇到的问题场景是：1.无法编译我自定义的bib文件, 2.bibtex无法编译后续的aux文件
+解决方法：创建.bib文件，使用BibDesk再生成bib文件；调用latexmk对模版thesis.tex进行编译；调用*biber*对thesis.bcf文件进行编译；再次调用latexmk对模版tesis.tex进行编译，就可以啦。引用command包括\cite和\parencite（这是一句废话）
+感谢：github@double-free，这是相关帖子，这是具体解决方法链接。
+  to be continued</description>
+    </item>
+    
+    <item>
+      <title>忙忙碌碌</title>
+      <link>/post/busy/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/busy/</guid>
+      <description>这是一篇流水账，如假包换。 近期感觉burnout，具体原因却如鲠在喉。
+文章，草草改了些无关紧要的内容；reanalyze有些阻碍，自己基础甚是不够，寸步难行。
+毕业论文也不想写，草草的做了些analyze。 托福准备尚不充分，草草的做题，看资料。 申请材料提交了，但也是房东小姐姐帮忙改好以后草草的提交。顺便学了latex，规规矩矩整整齐齐的排版真不错。
+似乎做了很多事，可是每件事的质量和效率都不高。
+半个月前小小的burnout了一下，然后听从谗言说该好好休息，结果呢？休息结束之后没过多久又崩溃了：由于圣诞新年的假期导致生活极度不规律，昨天前天发哮喘和鼻炎，紧随而来的鼻窦炎+疑似偏头痛更是要命，在这档口看《生门2》边看边哭简直雪上加霜。结论是休息不适合我，维持固定的生活节律远比休息更重要。</description>
+    </item>
     
     <item>
       <title>2018</title>
