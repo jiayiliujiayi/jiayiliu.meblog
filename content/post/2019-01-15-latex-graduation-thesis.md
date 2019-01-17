@@ -50,4 +50,18 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 解决方法：生成原始bibtex的时候对cite key进行修改，修改成英文就好。  
 4. export in batches @ googlescholar  
 问题场景：每条文献手动编辑要疯  
-解决方法：search-->"star"" the paper --> go to "My Library" in the left-side bar --> select all on the top bar --> export as BibTeX;尝试了百度学术同理，而且百度学术导出的bibtex还带abstract。
+解决方法：search-->"star"" the paper --> go to "My Library" in the left-side bar --> select all on the top bar --> export as BibTeX;尝试了百度学术同理，而且百度学术导出的bibtex还带abstract。  
+------------一下1.17更新
+5. 目录的附录部分不显示subsection  
+问题场景：附录部分的subsection隐藏  
+尝试过的解决方法：[见链接](https://github.com/sjtug/SJTUThesis/issues/403)  
+简单来说就是在either thesis.tex or app.tex 里加一行 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}  
+可是编译失败  
+最终解决方法：还是见上链接里的大神回答： \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}这一行前面要加上\protect（“因为.cls文件使用了 calc 宏包，所以要给 \setcounter 加一个保护”），并且要放在目标章节的**前一章节**的**前面**（因为\addtocontents 命令是在它**后面一章的末尾**起作用）  
+6. 与上一个问题异曲同工的问题  
+问题场景：subsection添加footnote  
+尝试过的方法：\subsection{sectionname\footnote{foo}}编译失败  
+解决方法： 因为\footnote是一个fragile command，section title是一个移动参数（moving argument），意思是他们会被写入用在目录里的辅助文件（纯翻译这句 我其实也没懂）。脆弱命\footnote令在移动参数中被破坏，所以需要加\protect命令来保护它不被破坏。  
+所以改成\subsection{sectionname\footnote{foo}}就好.  
+会出现的问题就是在目录页也会出现footnote，不过我的footnote是标注附录的section，which is selectively muted in the table of contents...所以负负得正了- -   
+所以这个问题究其根本还是没解决sigh。  
