@@ -65,3 +65,8 @@ debug的时候，如果需要步骤 >= 3，那本木鱼脑子是肯定记不住�
 所以改成\subsection{sectionname\footnote{foo}}就好.  
 会出现的问题就是在目录页也会出现footnote，不过我的footnote是标注附录的section，which is selectively muted in the table of contents...所以负负得正了- -   
 所以这个问题究其根本还是没解决sigh。  
+------------以下1.20更新  
+7. 添加横向表的问题  
+问题场景：如题  
+解决方法：在.cls文件里添加一行\RequirePackage{rotating}，再用\begin{sidewaystable}\end{sidewaytable}环境，搞定。
+
