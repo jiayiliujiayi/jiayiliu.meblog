@@ -6,10 +6,30 @@
     <description>Recent content in Posts on JY L</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>爹娘来美前的焦虑</title>
+      <link>/post/preparentvisiting-anxiety/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/preparentvisiting-anxiety/</guid>
+      <description>回顾一月，察觉到自己持久而稳定焦虑状态贯穿整月：月初焦虑ocp无效，月中焦虑考试和面试（which已凉），月底好容易笃笃定定开始改文章，又开始焦虑爸妈来玩的事儿。 担心他们带太多东西太沉、睡过头赶不上飞机、去机场堵车、飞机延误、出关被盘问；担心到达以后不适应生活气候、不喜欢住的地方等等等等；还担心自己因为改文章写论文没空陪他们……
+上周开始陆续准备生活用品和食物，几个月没开火的我终于要起油锅了。。。买菜时又战战兢兢，爸爸不能吃豆腐蘑菇高脂肪，妈妈不能吃糖；心里想着饭不能太早煮担心他们嫌时间太长所以今晚要回去炒菜烧饭。给爸妈烧的饭肯定不能像自己一个人吃的那般将就对付。终于想好备齐原材料，今早又发觉要帮妈妈把燕窝备好——瞬间一身冷汗——还有没有别的细节我没注意到？…幸亏有房东和同事给我出主意&amp;amp;帮忙张罗，否则更抓瞎。
+回头想想大概率是自己过分担心，爸妈住的地方生活方便，走路就可以到饭店和超市，况且他们也不是第一次出远门……总之整个过程现在想来似乎是自己付出型人格+自我感动在作祟？不过以后若是再回首这段时光，很可能会认为当时的自己没必要焦虑。但，好了伤疤忘了疼，人啊，就是欠儿欠儿的。</description>
+    </item>
+    
+    <item>
+      <title>和学姐聊天</title>
+      <link>/post/chat-with-chengyao/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/chat-with-chengyao/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>使用latex来生成毕业论文的一点点经验</title>
@@ -27,7 +47,8 @@ debug的时候，如果需要步骤 &amp;gt;= 3，那本木鱼脑子是肯定记
 0. 源代码：上海交通大学 XeLaTeX 学位论文及课程论文模板
 1. macos 10.14.2 (18C54)
 2. MacTeX-2018
-3 Atom editor 4. 编译用latexmk或xelatex
+3 Atom editor
+4. 编译用latexmk或xelatex
 5. 参考文件生成使用BibDesk
 如果有时间我想尝试sublime 嘻嘻
 终于到正文了
@@ -41,7 +62,9 @@ debug的时候，如果需要步骤 &amp;gt;= 3，那本木鱼脑子是肯定记
 我自己遇到的问题场景是：1.无法编译我自定义的bib文件, 2.bibtex无法编译后续的aux文件
 解决方法：创建.bib文件，使用BibDesk再生成bib文件；调用latexmk对模版thesis.tex进行编译；调用*biber*对thesis.bcf文件进行编译；再次调用latexmk对模版tesis.tex进行编译，就可以啦。引用command包括\cite和\parencite（这是一句废话）
 感谢：github@double-free，这是相关帖子，这是具体解决方法链接。
-  to be continued</description>
+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;以下1.16更新
+ citekey问题 问题场景：（前提是我现在没搞明白bibtex怎么编译）我用googlescholar来生成.bib，再用bibdesk这个软件生成.bib file时，citekey会提示unexpected 解决方法：生成原始bibtex的时候对cite key进行修改，修改成英文就好。
+ export in batches @ googlescholar</description>
     </item>
     
     <item>
