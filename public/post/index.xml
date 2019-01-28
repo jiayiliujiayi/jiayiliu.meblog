@@ -23,15 +23,6 @@
     </item>
     
     <item>
-      <title>和学姐聊天</title>
-      <link>/post/chat-with-chengyao/</link>
-      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/chat-with-chengyao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>使用latex来生成毕业论文的一点点经验</title>
       <link>/post/latex-graduation-thesis/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
@@ -354,7 +345,7 @@ summary.seqs(count=stability.trim.contigs.good.count_table)
       <guid>/post/command-lines-for-microbiota-analysis-in-r/</guid>
       <description>Inspired by Riffomonas
 0. Before you start 0.1 Set working directory setwd(dir = &amp;quot;~/Documents/mothur exercise/rmarkdown/&amp;quot;) ~ meaning: root
- 0.2 Two Sets of Files needed for analysis    File origin File type Notes    Mothur axes file ended with “.ave.pcoa.axes” tsv(Tab Separated Values)file  Mothur summary file ended with “ave-std.summary” convert format into xls, csv, or tsv before importing  Mothur summary file ended with “tax.summary” convert format into xls, csv, or tsv before importing  Metadata file ended with “.</description>
+ 0.2 Two Sets of Files needed for analysis    File origin File type Notes    Mothur axes file ended with “.ave.pcoa.axes” tsv(Tab Separated Values)file  Mothur summary file ended with “ave-std.summary” convert format into xls, csv, or tsv before importing  Mothur summary file ended with “tax.</description>
     </item>
     
     <item>
