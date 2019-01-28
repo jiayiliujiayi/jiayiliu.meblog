@@ -7,12 +7,3 @@ title = "JY L"
     author = "Jiayi"
     github = "jiayiliujiayi"
     
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
